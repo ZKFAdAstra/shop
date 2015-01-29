@@ -1,4 +1,7 @@
 <?php
+ini_set('memory_limit', '128M');
+//ini_set('memory_limit', '256M');
+//init_set('display_errors', 1); error_reporting(E_ALL);
 
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\HttpFoundation\Request;
