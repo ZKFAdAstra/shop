@@ -13,6 +13,7 @@ web/css/*
 web/js/*
 web/assets/compiled/*
 web/media/*
+web/imgassets/*
 
 bin/behat
 bin/doctrine*
@@ -26,3 +27,5 @@ bin/phpunit
 vendor/*
 
 composer.phar
+
+app/bootstrap.php.cache
