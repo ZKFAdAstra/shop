@@ -83,3 +83,7 @@ sylius_payment:
 #        stripe_checkout: Stripe Checkout
 #        paypal_express_checkout: Paypal Express Checkout
       
+payum:
+    contexts:
+        offline:
+            offline: ~
